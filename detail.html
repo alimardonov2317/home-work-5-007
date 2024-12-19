@@ -18,7 +18,7 @@
             <div class="container">
                 <nav class="navbar">
                     <div class="navbar__logo">
-                        <a href="#">
+                        <a href="index.html">
                             <img src="./assets/logo.svg" alt="logo">
                         </a>
                     </div>
@@ -30,55 +30,56 @@
                         <i class="fa-regular fa-user" style="color: #000000;"></i>
                         <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
                     </div>
-
                 </nav>
             </div>
         </header>
-        <!-- Deatail -->
+        
+        <!-- Detail -->
         <div class="detail">
             <div class="container">
                 <div class="detail__wrapper">
                     <div class="detail__image">
-                        <img src="./assets/detail.png" alt="product">
-                        <p class="detail__product-info">All hand-made with natural soy wax, Candleaf is made for your
-                            pleasure moments.</p>
+                        <img src="" alt="product">
+                        <p class="detail__product-info">All hand-made with natural soy wax, Candleaf is made for your pleasure moments.</p>
                         <button class="detail__product-btn">🚚 FREE SHIPPING</button>
                     </div>
                     <div class="detail__content">
                         <h2 class="detail__product-title">Spiced Mint Candleaf®</h2>
-                        <div class="detail__left">
-                            <p class="detail__product-price">$ 9.99</p>
-                            <p>Quantity</p>
-                            <span>+ 1 -</span>
-                        </div>
-                        <div class="detail__right">
-                            <form class="detail__form">
-                                <input type="radio" id="product">
-                                <label for="product">One time purchase</label>
-                                <div>
-                                    <input type="radio" id="product">
-                                    <label for="product">Subscribe and delivery every </label>
-                                    <select name="product" id="product">
-                                        <option value="1">4 weeks</option>
-                                        <option value="1">8 weeks</option>
-                                        <option value="1">4 month</option>
-                                    </select>
-                                    <p class="detail__desc">Subscribe now and get the 10% of discount on every recurring
-                                        order. The discount will be applied at checkout. See details</p>
-                                        <button class="detail__add-btn"><i class="fa-solid fa-cart-shopping" style="color: #63E6BE;"></i>+ Add to cart</button>
-                                </div>
-                            </form>
-                            <div class="detail__product-info">
-                                <p><span>Wax:</span>Top grade Soy wax that delivers a smoke less,  consistent burn</p>
-                                <p><span>Fragrance: </span>Premium quality ingredients with natural essential oils </p>
-                                <p><span>Burning Time:</span> 70-75 hours <span>Dimension:</span> 10cm x 5cm <span>Weight:</span>400g</p>
+                        <div class="detail__lr-wrapper">
+                            <div class="detail__left">
+                                <p class="detail__product-price">$ 9.99</p>
+                                <p>Quantity</p>
+                                <span>+ 1 -</span>
                             </div>
+                            <div class="detail__right">
+                                <form class="detail__form">
+                                    <input class="detail__radio" type="radio" id="product">
+                                    <label for="product">One time purchase</label>
+                                    <div>
+                                        <input type="radio" id="product">
+                                        <label for="product">Subscribe and delivery every </label>
+                                        <select name="product" id="product">
+                                            <option value="1">4 weeks</option>
+                                            <option value="1">8 weeks</option>
+                                            <option value="1">4 month</option>
+                                        </select>
+                                        <p class="detail__desc">Subscribe now and get the 10% of discount on every recurring order. The discount will be applied at checkout. See details</p>
+                                    </div>
+                                    <button class="detail__add-btn"><i class="fa-solid fa-cart-shopping"></i>+ Add to cart</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="detail__product-content">
+                            <p><span class="detail__info">Wax:</span>Top grade Soy wax that delivers a smoke less, consistent burn</p>
+                            <p><span class="detail__info">Fragrance:</span>Premium quality ingredients with natural essential oils</p>
+                            <p><span class="detail__info">Burning Time:</span>70-75 hours <span class="detail__info">Dimension:</span> 10cm x 5cm <span class="detail__info">Weight:</span>400g</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -159,9 +160,10 @@
                     </ul>
                 </div>
             </nav>
-
         </div>
     </footer>
+    
+    <script src="./scripts/detail.js"></script>
 </body>
 
 </html>

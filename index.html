@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Candleaf</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
@@ -22,10 +22,12 @@
                             <img src="./assets/logo.svg" alt="logo">
                         </a>
                     </div>
-                    <form class="navbar__form">
-                        <input class="navbar__input" type="search">
+                    <form class="navbar__form search">
+                        <input class="navbar__input" type="search" placeholder="Search...">
                         <button class="navbar__btn">Search</button>
+                        <div class="search__drop" style="display: none;"></div>
                     </form>
+                    
                     <div class="navbar__prof">
                         <i class="fa-regular fa-user" style="color: #000000;"></i>
                         <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
@@ -58,34 +60,6 @@
                         <p class="product__text-desc">Order it for you or for your beloved ones </p>
                     </div>
                     <div class="product__content">
-                        <div class="product__card">
-                            <img src="./assets/product.png" alt="">
-                            <div class="product__content-text">
-                                <p class="product__title">Spiced Mint</p>
-                                <p class="product__price">9.99$</p>
-                            </div>
-                        </div>
-                        <div class="product__card">
-                            <img src="./assets/product.png" alt="">
-                            <div class="product__content-text">
-                                <p class="product__title">Spiced Mint</p>
-                                <p class="product__price">9.99$</p>
-                            </div>
-                        </div>
-                        <div class="product__card">
-                            <img src="./assets/product.png" alt="">
-                            <div class="product__content-text">
-                                <p class="product__title">Spiced Mint</p>
-                                <p class="product__price">9.99$</p>
-                            </div>
-                        </div>
-                        <div class="product__card">
-                            <img src="./assets/product.png" alt="">
-                            <div class="product__content-text">
-                                <p class="product__title">Spiced Mint</p>
-                                <p class="product__price">9.99$</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -271,6 +245,7 @@
 
         </div>
     </footer>
+    <script src="./scripts/app.js"></script>
 </body>
 
 </html>
